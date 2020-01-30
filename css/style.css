@@ -1,0 +1,41 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/* Área Saiba Mais */
+.saiba-mais img{
+    width: 330px;
+}
+/* Media Querie Mobile */
+@media(min-width: 576px) and (max-width: 767.98px){
+    /* Área Saiba Mais */
+    .saiba-mais img{
+        width: 430px;
+    }
+}
+/* Media Querie Tablet */
+@media(min-width: 768px) and (max-width: 991.98px){
+    /* Área do banner */
+    .capa img{
+        width: 300px;
+    }
+    /* Área Saiba Mais */
+    .saiba-mais img{
+        width: 360px;
+        margin-top: 32px;
+    }
+}
+/* Media Querie Desktop Large */
+@media(min-width: 992px) and (max-width: 1199.98px){
+    /* Área Saiba Mais */
+    .saiba-mais img{
+        width: 450px;
+    }
+}
+/* Media Queria Desktop Extra Large */
+@media(min-width: 1200px){
+    /* Área Saiba Mais */
+    .saiba-mais img{
+        width: 550px;
+    }
+}
